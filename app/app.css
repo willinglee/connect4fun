@@ -1,0 +1,36 @@
+html {
+  font-family: 'helvetica neue';
+  text-align: center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#container {
+  width: 55%;
+  height: 100%;
+  padding-bottom: 30px;
+  background-color: #2196F3;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 15px;
+  background-color: #FFEB3B;
+}
+
+.cell {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 50%;
+}
+
+.cell-button {
+  border: 8px solid grey;
+  padding: .2rem;
+}
